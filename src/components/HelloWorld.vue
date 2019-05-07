@@ -2,7 +2,7 @@
   <v-container>
     <v-layout text-xs-center wrap>
       <v-flex xs12>
-        <v-parallax dark src="https://cdn.vuetifyjs.com/images/parallax/material.jpg" height="600">
+        <v-parallax dark src="http://jonaskp.dk/img/para.jpg" height="600">
           <v-layout align-center column justify-center>
             <img src="../assets/logo.svg" alt="Vuetify.js" height="200">
             <h1 class="display-2 font-weight-thin mb-3">Jonas Pedersen</h1>
