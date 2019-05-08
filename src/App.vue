@@ -27,9 +27,16 @@
         <span class="mr-2">Multimedia</span>
       </v-btn>
 
-      <v-btn flat class="hidden-md-and-up">
-        <span class="mr-2">test</span>
-      </v-btn>
+      <v-menu offset-y>
+        <template v-slot:activator="{ on }">
+          <v-btn class="hidden-md-and-up" color="primary" dark v-on="on">Menu</v-btn>
+        </template>
+        <v-list>
+          <v-list-tile href="#intro">Intro</v-list-tile>
+          <v-list-tile href="#web">Webpages</v-list-tile>
+          <v-list-tile href="#media">Multimedia</v-list-tile>
+        </v-list>
+      </v-menu>
     </v-toolbar>
 
     <v-content>
@@ -42,8 +49,11 @@
           <div class="white--text ml-3">
             Made
             with
-            <a class="white--text" href="https://vuetifyjs.com" target="_blank">Vuetify</a>
-
+            <a
+              class="white--text"
+              href="https://vuetifyjs.com"
+              target="_blank"
+            >Vuetify</a>
             by Jonas Pedersen
           </div>
         </v-flex>

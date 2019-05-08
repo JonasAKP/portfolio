@@ -11,7 +11,7 @@
         </v-parallax>
       </v-flex>
 
-      <v-flex xs12 sm12 class="my-3" >
+      <v-flex xs12 sm12 class="my-3">
         <div class="text-xs-center">
           <h1 class="display-2 font-weight-bold mb-3" id="intro">Who is Jonas?</h1>
           <p class="subheading font-weight-regular">
@@ -28,7 +28,7 @@
       <v-flex xs12 md4>
         <v-card class="elevation-0 transparent">
           <v-card-text class="text-xs-center">
-            <img src="https://via.placeholder.com/600" alt="" height="85%" width="85%">
+            <img src="https://via.placeholder.com/600" alt height="85%" width="85%">
           </v-card-text>
           <v-card-title primary-title class="layout justify-center">
             <div class="headline text-xs-center">Material Design</div>
@@ -44,7 +44,7 @@
       <v-flex xs12 md4>
         <v-card class="elevation-0 transparent">
           <v-card-text class="text-xs-center">
-            <img src="https://via.placeholder.com/600" alt="" height="85%" width="85%">
+            <img src="https://via.placeholder.com/600" alt height="85%" width="85%">
           </v-card-text>
           <v-card-title primary-title class="layout justify-center">
             <div class="headline">Fast development</div>
@@ -60,7 +60,7 @@
       <v-flex xs12 md4>
         <v-card class="elevation-0 transparent">
           <v-card-text class="text-xs-center">
-            <img src="https://via.placeholder.com/600" alt="" height="85%" width="85%">
+            <img src="https://via.placeholder.com/600" alt height="85%" width="85%">
           </v-card-text>
           <v-card-title primary-title class="layout justify-center">
             <div class="headline text-xs-center">Completely Open Sourced</div>
@@ -73,14 +73,14 @@
         </v-card>
       </v-flex>
 
-<v-flex xs12 sm12 id="media">
+      <v-flex xs12 sm12 id="media">
         <h1 class="display-2 font-weight-bold mb-3">Media made</h1>
       </v-flex>
 
       <v-flex xs12 md4>
         <v-card class="elevation-0 transparent">
           <v-card-text class="text-xs-center">
-            <img src="https://via.placeholder.com/600" alt="" height="85%" width="85%">
+            <img src="https://via.placeholder.com/600" alt height="85%" width="85%">
           </v-card-text>
           <v-card-title primary-title class="layout justify-center">
             <div class="headline text-xs-center">Material Design</div>
@@ -96,7 +96,7 @@
       <v-flex xs12 md4>
         <v-card class="elevation-0 transparent">
           <v-card-text class="text-xs-center">
-            <img src="https://via.placeholder.com/600" alt="" height="85%" width="85%">
+            <img src="https://via.placeholder.com/600" alt height="85%" width="85%">
           </v-card-text>
           <v-card-title primary-title class="layout justify-center">
             <div class="headline">Fast development</div>
@@ -112,7 +112,7 @@
       <v-flex xs12 md4>
         <v-card class="elevation-0 transparent">
           <v-card-text class="text-xs-center">
-            <img src="https://via.placeholder.com/600" alt="" height="85%" width="85%">
+            <img src="https://via.placeholder.com/600" alt height="85%" width="85%">
           </v-card-text>
           <v-card-title primary-title class="layout justify-center">
             <div class="headline text-xs-center">Completely Open Sourced</div>
@@ -124,16 +124,11 @@
           </v-card-text>
         </v-card>
       </v-flex>
-
-
-
-     
     </v-layout>
   </v-container>
 </template>
 
 <script>
-
 </script>
 
 <style>
