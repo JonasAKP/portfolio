@@ -30,7 +30,7 @@
 
           <v-card>
             <v-card-title class="headline grey lighten-2" primary-title>Video CV</v-card-title>
-            <iframe width="1280" height="720" src="https://www.youtube.com/embed/AqaqQUOkSKs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="1280" height="720" src="https://www.youtube.com/embed/3EPMI5NduXk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
           </v-card>
         </v-dialog>
@@ -42,7 +42,7 @@
 
           <v-card>
             <v-card-title class="headline grey lighten-2" primary-title>Video CV</v-card-title>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/AqaqQUOkSKs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="380" height="315" src="https://www.youtube.com/embed/3EPMI5NduXk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
           </v-card>
         </v-dialog>

@@ -2,20 +2,7 @@
 <div class="app">
   <v-app light>
     <v-toolbar app>
-      <v-toolbar-title class="headline text-uppercase">
-        <v-img
-          :src="require('@/assets/logo.svg')"
-          class="mr-5"
-          contain
-          flex
-          height="48"
-          width="48"
-          max-width="48"
-          @click="$vuetify.goTo(0)"
-        />
-      </v-toolbar-title>
       <v-spacer></v-spacer>
-
       <v-btn flat href="#intro" class="hidden-sm-and-down">
         <span class="mr-2">Intro</span>
       </v-btn>
