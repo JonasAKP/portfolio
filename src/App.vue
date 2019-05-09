@@ -1,5 +1,6 @@
 <template>
-  <v-app>
+<div class="app">
+  <v-app light>
     <v-toolbar app>
       <v-toolbar-title class="headline text-uppercase">
         <v-img
@@ -29,7 +30,7 @@
 
       <v-menu offset-y>
         <template v-slot:activator="{ on }">
-          <v-btn class="hidden-md-and-up" color="primary" dark v-on="on">Menu</v-btn>
+          <v-btn class="hidden-md-and-up" flat v-on="on">Menu</v-btn>
         </template>
         <v-list>
           <v-list-tile href="#intro">Intro</v-list-tile>
@@ -60,6 +61,7 @@
       </v-layout>
     </v-footer>
   </v-app>
+  </div>
 </template>
 
 <script>
